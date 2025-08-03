@@ -1,7 +1,8 @@
 /*top*/
 .top {display:flex; align-items:center; justify-content:center; flex-wrap:wrap; padding:20px 0;}
 .top .logo {width:min(40%, 200px); margin:0 auto 20px;}
-.top a {font-weight:700; margin:0 0.5em; width:25%; max-width:200px;}
+.top ul {width:100%; display:flex; align-items:center;}
+.top ul li a {font-weight:700; width:25%;}
 
 @media all and (min-width:768px) {
   .top {flex-wrap:no-wrap;}
