@@ -1,9 +1,16 @@
-/*디자인*/
+/*top*/
 .top {display:flex; align-items: center;}
 .top .logo {width:120px;}
 .top a {font-weight:700; margin:0 0.5em;}
 
+/*위치안내*/
 section.map .mapbox {width:100%; overflow:hidden;}
 section.map .mapbox .cont {display:none;}
 section.map .mapbox .map_border {display:none;}
 section.map .mapbox .wrap_controllers {display:none;}
+
+@media all and (min-width:768px) {
+}
+
+@media all and (min-width:1200px) {
+}
