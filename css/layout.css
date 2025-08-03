@@ -26,3 +26,7 @@ section.loc .mapbox .wrap_controllers {display:none;}
 
 @media all and (min-width:1200px) {
 }
+
+
+/*bottom*/
+.bottom {background:#404040; color:#ddd;}
