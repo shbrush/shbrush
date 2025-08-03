@@ -1,5 +1,5 @@
 /*top*/
-.top {border-bottom:1px solid #e0e0e0;}
+.top {border-bottom:1px solid #e0e0e0; display:fixed;}
 .top .inner {display:flex; align-items:center; justify-content:flex-start; flex-wrap:wrap; padding:0;}
 .top .logo {width:min(50%, 250px); padding:20px;}
 .top ul {width:100%; display:flex; align-items:center; border-top:1px solid #e0e0e0;}
