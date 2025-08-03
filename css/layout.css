@@ -1,12 +1,13 @@
 /*top*/
-.top {display:flex; align-items:center; justify-content:flex-start; flex-wrap:wrap; border-bottom:1px solid #e0e0e0;}
+.top {border-bottom:1px solid #e0e0e0;}
+.top .inner {display:flex; align-items:center; justify-content:flex-start; flex-wrap:wrap; padding:0;}
 .top .logo {width:min(50%, 250px); padding:20px;}
 .top ul {width:100%; display:flex; align-items:center; border-top:1px solid #e0e0e0;}
 .top ul li {font-weight:800; flex:1; display:flex; align-items:center; justify-content:center; text-align:center; padding:15px 0;}
 .top ul li:not(:last-child) {border-right:1px solid #e0e0e0;}
 
 @media all and (min-width:768px) {
-  .top {flex-wrap:nowrap; justify-content:space-between;}
+  .top .inner {flex-wrap:nowrap; justify-content:space-between;}
   .top .logo {margin:0 auto 0 0;}
   .top ul {width:60%; border-top:0;}
   .top ul li {font-size:18px;}
@@ -16,6 +17,10 @@
 @media all and (min-width:1200px) {
   .top ul li {font-size:20px;}
 }
+
+
+/*공통*/
+.inner {width:100%; max-width:1400px; padding:0 20px;}
 
 
 /*main*/
