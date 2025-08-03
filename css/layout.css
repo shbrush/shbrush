@@ -1,5 +1,5 @@
 /*top*/
-.top {display:flex; align-items:center; justify-content:flex-start; flex-wrap:wrap; padding:20px 0; border-bottom:1px solid #e0e0e0;}
+.top {display:flex; align-items:center; justify-content:flex-start; flex-wrap:wrap; border-bottom:1px solid #e0e0e0;}
 .top .logo {width:min(40%, 240px); padding:20px;}
 .top ul {width:100%; display:flex; align-items:center; border-top:1px solid #e0e0e0;}
 .top ul li {font-weight:800; flex:1; display:flex; align-items:center; justify-content:center; text-align:center; padding:20px 0;}
