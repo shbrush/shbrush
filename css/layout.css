@@ -29,4 +29,4 @@ section.loc .mapbox .wrap_controllers {display:none;}
 
 
 /*bottom*/
-.bottom {background:#404040; color:#ddd;}
+.bottom {background:#404040; color:#ddd; padding:40px 20px;}
