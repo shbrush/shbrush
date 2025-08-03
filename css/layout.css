@@ -7,6 +7,7 @@
 @media all and (min-width:768px) {
   .top {flex-wrap:no-wrap;}
   .top .logo {margin-right:auto;}
+  .top ul {}
 }
 
 @media all and (min-width:1200px) {
