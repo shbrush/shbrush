@@ -18,6 +18,12 @@
 }
 
 
+/*main*/
+section.main {background:#f5f5f5; display:flex; align-items:center; justify-content:center; flex-wrap:wrap;}
+section.main .txt {padding:60px 20px; width:100%;}
+section.main .info {width:100%;}
+
+
 /*위치안내*/
 section.loc .mapbox {width:100%; overflow:hidden;}
 section.loc .mapbox .cont {display:none;}
