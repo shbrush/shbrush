@@ -2,7 +2,7 @@
 .top {display:flex; align-items:center; justify-content:center; flex-wrap:wrap; padding:20px 0;}
 .top .logo {width:min(40%, 200px); margin:0 auto 20px;}
 .top ul {width:100%; display:flex; align-items:center;}
-.top ul li {font-weight:700; flex:1;}
+.top ul li {font-weight:700; flex:1; display:flex; align-items:center; justify-content:center; text-align:center;}
 
 @media all and (min-width:768px) {
   .top {flex-wrap:no-wrap;}
@@ -14,10 +14,10 @@
 
 
 /*위치안내*/
-section.map .mapbox {width:100%; overflow:hidden;}
-section.map .mapbox .cont {display:none;}
-section.map .mapbox .map_border {display:none;}
-section.map .mapbox .wrap_controllers {display:none;}
+section.loc .mapbox {width:100%; overflow:hidden;}
+section.loc .mapbox .cont {display:none;}
+section.loc .mapbox .map_border {display:none;}
+section.loc .mapbox .wrap_controllers {display:none;}
 
 @media all and (min-width:768px) {
 }
