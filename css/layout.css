@@ -1,7 +1,16 @@
 /*top*/
-.top {display:flex; align-items: center;}
-.top .logo {width:120px;}
-.top a {font-weight:700; margin:0 0.5em;}
+.top {display:flex; align-items:center; justify-content:center; flex-wrap:wrap; padding:20px 0;}
+.top .logo {width:min(40%, 200px); margin:0 auto 20px;}
+.top a {font-weight:700; margin:0 0.5em; width:25%; max-width:200px;}
+
+@media all and (min-width:768px) {
+  .top {flex-wrap:no-wrap;}
+  .top .logo {margin-right:auto;}
+}
+
+@media all and (min-width:1200px) {
+}
+
 
 /*위치안내*/
 section.map .mapbox {width:100%; overflow:hidden;}
