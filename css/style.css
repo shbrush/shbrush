@@ -8,7 +8,7 @@
 a[href="tel"] {color:inherit !important; text-decoration:none;}
 input[type="submit"]{-webkit-appearance: none; -webkit-border-radius:0}
 html {overflow-x:hidden;}
-body, html{font-family:'Pretendard', 'Noto Sans KR', sans-serif,'돋움'; font-size:16px; font-weight:500; letter-spacing:-0.05em; overscroll-behavior: none;}
+body, html{font-family:'Nanum Gothic', 'Pretendard', 'Noto Sans KR', sans-serif,'돋움'; font-size:16px; font-weight:500; letter-spacing:-0.05em; overscroll-behavior: none;}
 ::selection{background-color:#2f4858;color:#fff;}
 ::-moz-selection{background-color:#2f4858;color:#fff;}
 
