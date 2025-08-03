@@ -3,7 +3,7 @@
 .top .inner {display:flex; align-items:center; justify-content:flex-start; flex-wrap:wrap; padding:0;}
 .top .logo {width:min(50%, 250px); padding:20px;}
 .top ul {width:100%; display:flex; align-items:center; border-top:1px solid #e0e0e0;}
-.top ul li {font-weight:800; flex:1; display:flex; align-items:center; justify-content:center; text-align:center; padding:15px 0;}
+.top ul li {font-weight:700; flex:1; display:flex; align-items:center; justify-content:center; text-align:center; padding:15px 0;}
 .top ul li:not(:last-child) {border-right:1px solid #e0e0e0;}
 
 @media all and (min-width:768px) {
