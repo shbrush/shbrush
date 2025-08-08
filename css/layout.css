@@ -8,9 +8,9 @@
 
 @media all and (min-width:768px) {
   .top .inner {flex-wrap:nowrap; justify-content:space-between;}
-  .top .logo {margin:0 auto 0 0;}
+  .top .logo {height:50px; margin:0 auto 0 0;}
   .top ul {width:60%; border-top:0;}
-  .top ul li {font-size:18px;}
+  .top ul li {font-size:18px; height:80px;}
   .top ul li:not(:last-child) {border-right:0;}
 }
 
