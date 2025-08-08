@@ -1,5 +1,5 @@
 /*top*/
-.top {border-bottom:1px solid #e0e0e0; display:fixed;}
+.top {border-bottom:1px solid #e0e0e0; position:fixed; background:#fff;}
 .top .inner {display:flex; align-items:center; justify-content:flex-start; flex-wrap:wrap; padding:0;}
 .top .logo {width:min(50%, 250px); padding:20px;}
 .top ul {width:100%; display:flex; align-items:center; border-top:1px solid #e0e0e0;}
@@ -48,4 +48,4 @@ section.loc .mapbox .wrap_controllers {display:none;}
 .bottom ul li {display:flex; align-items:center;}
 .bottom ul li em {width:5em; font-weight:700;}
 .bottom .copy {margin:20px 0 0; font-size:0.9em; color:#aaa;}
-.bottom .top {position:absolute; right:20px; bottom:20px; display:flex; align-items:center; justify-content:center; width:40px; height:40px; font-size:0.9em; color:#fff; background:#dc3018;}
+.bottom .topbtn {position:absolute; right:20px; bottom:20px; display:flex; align-items:center; justify-content:center; width:50px; height:50px; font-size:0.8em; color:#fff; background:#dc3018;}
