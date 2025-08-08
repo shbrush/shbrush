@@ -48,4 +48,4 @@ section.loc .mapbox .wrap_controllers {display:none;}
 .bottom ul li {display:flex; align-items:center;}
 .bottom ul li em {width:5em; font-weight:700;}
 .bottom .copy {margin:20px 0 0; font-size:0.9em; color:#aaa;}
-.bottom .top {position:absolute; right:20px; bottom:20px; display:flex; align-items:center; justify-content:center; width:40px; height:40px; font-size:13px; color:#fff; background:#dc3018;}
+.bottom .top {position:absolute; right:20px; bottom:20px; display:flex; align-items:center; justify-content:center; width:40px; height:40px; font-size:0.9em; color:#fff; background:#dc3018;}
