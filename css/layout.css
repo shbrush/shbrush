@@ -13,18 +13,6 @@ section.main .info {width:100%;}
 }
 
 
-/*위치안내*/
-section.loc .mapbox {width:100%; overflow:hidden;}
-section.loc .mapbox .cont {display:none;}
-section.loc .mapbox .map_border {display:none;}
-section.loc .mapbox .wrap_controllers {display:none;}
-
-@media all and (min-width:768px) {
-}
-
-@media all and (min-width:1200px) {
-}
-
 
 
 
@@ -56,6 +44,18 @@ nav ul li {font-weight:700; flex:1; display:flex; align-items:center; justify-co
 
 @media all and (min-width:1200px) {
   nav ul li {font-size:20px;}
+}
+
+/*위치안내*/
+section.loc .mapbox {width:100%; overflow:hidden;}
+section.loc .mapbox .cont {display:none;}
+section.loc .mapbox .map_border {display:none;}
+section.loc .mapbox .wrap_controllers {display:none;}
+
+@media all and (min-width:768px) {
+}
+
+@media all and (min-width:1200px) {
 }
 
 /*footer*/
