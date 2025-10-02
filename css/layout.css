@@ -30,7 +30,7 @@ section{height:100vh; min-height:720px; display:flex; justify-content:center; al
 nav {position:fixed; width:100%; background:#fff; z-index:1000; -webkit-box-shadow:0 0 10px 0 rgba(0,0,0,0.08); -moz-box-shadow:0 0 10px 0 rgba(0,0,0,0.08); box-shadow:0 0 10px 0 rgba(0,0,0,0.08);}
 nav .inner {display:flex; align-items:center; justify-content:center; flex-wrap:wrap; padding:0;}
 nav .logo {padding:10px 20px; overflow:hidden;}
-nav .logo img {width:auto; height:36px; transition:0.3s;}
+nav .logo img {width:auto; height:30px; transition:0.3s;}
 nav ul {width:100%; display:flex; align-items:center; justify-content:center; padding:10px 20px; gap:0 2em;}
 nav ul li {font-weight:700; display:flex; align-items:center; justify-content:center; text-align:center;}
 
