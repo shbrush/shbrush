@@ -33,19 +33,14 @@ section.loc .mapbox .wrap_controllers {display:none;}
 
 /* new */
 body,html{margin:0;padding:0;scroll-behavior:smooth}
-nav{position:fixed;top:0;width:100%;z-index:1000}
-nav ul{list-style:none;display:flex;justify-content:center;margin:0;padding:0}
-nav ul li{margin:0 10px}
-nav ul li a{cursor:pointer;text-decoration:none}
 section{height:100vh;min-height:720px;display:flex;justify-content:center;align-items:center}
 #section1{position:relative;overflow:hidden}
 .slider{display:flex;width:300%;height:100%;transition:transform 0.5s ease}
 .slide{flex:0 0 100%;display:flex;justify-content:center;align-items:center}
-footer{padding:50px 20px;text-align:center;position:relative}
 #scrollTopBtn{position:fixed;bottom:40px;right:40px;cursor:pointer;display:none;z-index:1000}
 
 /*nav*/
-nav {border-bottom:1px solid #e0e0e0; position:fixed; width:100%; background:#fff;}
+nav {border-bottom:1px solid #e0e0e0; position:fixed; width:100%; background:#fff; z-index:1000;}
 nav .inner {display:flex; align-items:center; justify-content:flex-start; flex-wrap:wrap; padding:0;}
 nav .logo {height:40px; padding:10px 20px; overflow:hidden;}
 nav .logo img {width:auto; height:100%;}
