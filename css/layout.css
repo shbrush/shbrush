@@ -1,25 +1,3 @@
-/*top*/
-.top {border-bottom:1px solid #e0e0e0; position:fixed; width:100%; background:#fff;}
-.top .inner {display:flex; align-items:center; justify-content:flex-start; flex-wrap:wrap; padding:0;}
-.top .logo {height:40px; padding:10px 20px; overflow:hidden;}
-.top .logo img {width:auto; height:100%;}
-.top ul {width:100%; display:flex; align-items:center; border-top:1px solid #e0e0e0;}
-.top ul li {font-weight:700; flex:1; display:flex; align-items:center; justify-content:center; text-align:center; height:40px;}
-.top ul li:not(:last-child) {border-right:1px solid #e0e0e0;}
-
-@media all and (min-width:768px) {
-  .top .inner {flex-wrap:nowrap; justify-content:space-between;}
-  .top .logo {height:60px; margin:0 auto 0 0;}
-  .top ul {width:60%; border-top:0;}
-  .top ul li {font-size:18px; height:80px;}
-  .top ul li:not(:last-child) {border-right:0;}
-}
-
-@media all and (min-width:1200px) {
-  .top ul li {font-size:20px;}
-}
-
-
 /*공통*/
 .inner {width:100%; max-width:1400px; padding:0 20px; margin:0 auto;}
 
@@ -50,10 +28,47 @@ section.loc .mapbox .wrap_controllers {display:none;}
 }
 
 
-/*bottom*/
-.bottom {background:#404040; color:#ddd; padding:40px 20px; position:relative;}
-.bottom h5 {font-size:1.25em; font-weight:700; margin:0 0 20px;}
-.bottom ul li {display:flex; align-items:center;}
-.bottom ul li em {width:5em; font-weight:700;}
-.bottom .copy {margin:20px 0 0; font-size:0.9em; color:#aaa;}
-.bottom #topbtn {position:absolute; right:20px; bottom:20px; display:flex; align-items:center; justify-content:center; width:50px; height:50px; font-size:0.8em; color:#fff; border:0; background:#dc3018;}
+
+
+
+/* new */
+body,html{margin:0;padding:0;scroll-behavior:smooth}
+nav{position:fixed;top:0;width:100%;z-index:1000}
+nav ul{list-style:none;display:flex;justify-content:center;margin:0;padding:0}
+nav ul li{margin:0 10px}
+nav ul li a{cursor:pointer;text-decoration:none}
+section{height:100vh;min-height:720px;display:flex;justify-content:center;align-items:center}
+#section1{position:relative;overflow:hidden}
+.slider{display:flex;width:300%;height:100%;transition:transform 0.5s ease}
+.slide{flex:0 0 100%;display:flex;justify-content:center;align-items:center}
+footer{padding:50px 20px;text-align:center;position:relative}
+#scrollTopBtn{position:fixed;bottom:40px;right:40px;cursor:pointer;display:none;z-index:1000}
+
+/*nav*/
+nav {border-bottom:1px solid #e0e0e0; position:fixed; width:100%; background:#fff;}
+nav .inner {display:flex; align-items:center; justify-content:flex-start; flex-wrap:wrap; padding:0;}
+nav .logo {height:40px; padding:10px 20px; overflow:hidden;}
+nav .logo img {width:auto; height:100%;}
+nav ul {width:100%; display:flex; align-items:center; border-top:1px solid #e0e0e0;}
+nav ul li {font-weight:700; flex:1; display:flex; align-items:center; justify-content:center; text-align:center; height:40px;}
+nav ul li:not(:last-child) {border-right:1px solid #e0e0e0;}
+
+@media all and (min-width:768px) {
+  nav .inner {flex-wrap:nowrap; justify-content:space-between;}
+  nav .logo {height:60px; margin:0 auto 0 0;}
+  nav ul {width:60%; border-top:0;}
+  nav ul li {font-size:18px; height:80px;}
+  nav ul li:not(:last-child) {border-right:0;}
+}
+
+@media all and (min-width:1200px) {
+  nav ul li {font-size:20px;}
+}
+
+/*footer*/
+footer {background:#404040; color:#ddd; padding:40px 20px; position:relative;}
+footer h5 {font-size:1.25em; font-weight:700; margin:0 0 20px;}
+footer ul li {display:flex; align-items:center;}
+footer ul li em {width:5em; font-weight:700;}
+footer .copy {margin:20px 0 0; font-size:0.9em; color:#aaa;}
+footer #topbtn {position:absolute; right:20px; bottom:20px; display:flex; align-items:center; justify-content:center; width:50px; height:50px; font-size:0.8em; color:#fff; border:0; background:#dc3018;}
