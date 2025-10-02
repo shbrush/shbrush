@@ -56,4 +56,4 @@ section.loc .mapbox .wrap_controllers {display:none;}
 .bottom ul li {display:flex; align-items:center;}
 .bottom ul li em {width:5em; font-weight:700;}
 .bottom .copy {margin:20px 0 0; font-size:0.9em; color:#aaa;}
-.bottom #topbtn {position:absolute; right:20px; bottom:20px; display:flex; align-items:center; justify-content:center; width:50px; height:50px; font-size:0.8em; color:#fff; background:#dc3018;}
+.bottom #topbtn {position:absolute; right:20px; bottom:20px; display:flex; align-items:center; justify-content:center; width:50px; height:50px; font-size:0.8em; color:#fff; border:0; background:#dc3018;}
