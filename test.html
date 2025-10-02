@@ -1,44 +1,82 @@
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>테스트</title>
+<title>송현브러쉬</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no, address=no, email=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="robots" content="index, follow" />
+  
+<meta name="author" content="송현브러쉬">
+<meta name="description" content="각종 브러쉬 주문 제작 전문 기업" />
+<meta name="keywords" content="브러쉬, 주문제작, 헤어브러쉬, 세척용브러쉬, 세척솔, 산업용브러쉬, 가전브러쉬" />
+
+<meta property="og:type" content="website">
+<meta property="og:image" content="/img/sns_img.jpg">
+<meta property="og:title" content="송현브러쉬">
+<meta property="og:description" content="각종 브러쉬 주문 제작 전문 기업">
+<meta property="og:url" content="https://shbrush.co.kr/">
+
+<link rel="canonical" href="https://shbrush.co.kr/">
+<link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:FILL@1" />
+
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/css/layout.css" />
+
+</head>
+
 <style>
-body,html{margin:0;padding:0;scroll-behavior:smooth;font-family:Arial, sans-serif}
-nav{position:fixed;top:0;left:0;width:100%;background:#333;padding:10px 0;z-index:1000}
+body,html{margin:0;padding:0;scroll-behavior:smooth}
+nav{position:fixed;top:0;width:100%;z-index:1000}
 nav ul{list-style:none;display:flex;justify-content:center;margin:0;padding:0}
-nav ul li{margin:0 15px}
-nav ul li a{color:#fff;text-decoration:none;font-weight:bold;cursor:pointer}
-section{height:100vh;display:flex;justify-content:center;align-items:center;font-size:36px;color:#fff}
-#section1{background:#1abc9c}#section2{background:#3498db}#section3{background:#e74c3c}#section4{background:#9b59b6}
-footer{background:#222;color:#fff;text-align:center;padding:50px 20px;position:relative}
-#scrollTopBtn{position:fixed;bottom:40px;right:40px;padding:10px 15px;font-size:16px;cursor:pointer;background-color:#333;color:#fff;border:none;border-radius:5px;display:none;z-index:1000}
+nav ul li{margin:0 10px}
+nav ul li a{cursor:pointer;text-decoration:none}
+section{height:100vh;display:flex;justify-content:center;align-items:center}
+#section1{position:relative;overflow:hidden}
+.slider{display:flex;width:300%;height:100%;transition:transform 0.5s ease}
+.slide{flex:0 0 100%;display:flex;justify-content:center;align-items:center}
+footer{padding:50px 20px;text-align:center;position:relative}
+#scrollTopBtn{position:fixed;bottom:40px;right:40px;cursor:pointer;display:none;z-index:1000}
 </style>
 </head>
 <body>
 
 <nav>
   <ul>
-    <li><a href="#section1">섹션 1</a></li>
-    <li><a href="#section2">섹션 2</a></li>
-    <li><a href="#section3">섹션 3</a></li>
-    <li><a href="#section4">섹션 4</a></li>
+    <li><a href="#section1">섹션1</a></li>
+    <li><a href="#section2">섹션2</a></li>
+    <li><a href="#section3">섹션3</a></li>
+    <li><a href="#section4">섹션4</a></li>
+    <li><a href="#section5">섹션5</a></li>
   </ul>
 </nav>
 
-<section id="section1">섹션 1</section>
-<section id="section2">섹션 2</section>
-<section id="section3">섹션 3</section>
-<section id="section4">섹션 4</section>
+<section id="section1">
+  <div class="slider">
+    <div class="slide">슬라이드1</div>
+    <div class="slide">슬라이드2</div>
+    <div class="slide">슬라이드3</div>
+  </div>
+</section>
+<section id="section2">섹션2</section>
+<section id="section3">섹션3</section>
+<section id="section4">섹션4</section>
+<section id="section5">섹션5</section>
 
-<footer>&copy; 2025 My Website</footer>
-
+<footer>Footer</footer>
 <button id="scrollTopBtn">▲ Top</button>
 
 <script>
-const links=document.querySelectorAll('nav ul li a');links.forEach(link=>{link.addEventListener('click',e=>{e.preventDefault();const targetId=link.getAttribute('href').substring(1);const targetSection=document.getElementById(targetId);targetSection.scrollIntoView({behavior:'smooth'})})});
-const scrollBtn=document.getElementById('scrollTopBtn');window.addEventListener('scroll',()=>{if(window.scrollY>200){scrollBtn.style.display='block'}else{scrollBtn.style.display='none'}});scrollBtn.addEventListener('click',()=>{window.scrollTo({top:0,behavior:'smooth'})});
+const links=document.querySelectorAll('nav ul li a');links.forEach(link=>{link.addEventListener('click',e=>{e.preventDefault();const target=document.getElementById(link.getAttribute('href').substring(1));target.scrollIntoView({behavior:'smooth'})})});
+const scrollBtn=document.getElementById('scrollTopBtn');window.addEventListener('scroll',()=>{scrollBtn.style.display=window.scrollY>200?'block':'none'});scrollBtn.addEventListener('click',()=>{window.scrollTo({top:0,behavior:'smooth'})});
+const slider=document.querySelector('.slider');let slideIndex=0;const totalSlides=document.querySelectorAll('.slide').length;setInterval(()=>{slideIndex=(slideIndex+1)%totalSlides;slider.style.transform=`translateX(-${slideIndex*100}%)`},3000);
 </script>
 
 </body>
