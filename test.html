@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>테스트</title>
+<style>
+body,html{margin:0;padding:0;scroll-behavior:smooth;font-family:Arial, sans-serif}
+nav{position:fixed;top:0;left:0;width:100%;background:#333;padding:10px 0;z-index:1000}
+nav ul{list-style:none;display:flex;justify-content:center;margin:0;padding:0}
+nav ul li{margin:0 15px}
+nav ul li a{color:#fff;text-decoration:none;font-weight:bold;cursor:pointer}
+section{height:100vh;display:flex;justify-content:center;align-items:center;font-size:36px;color:#fff}
+#section1{background:#1abc9c}#section2{background:#3498db}#section3{background:#e74c3c}#section4{background:#9b59b6}
+footer{background:#222;color:#fff;text-align:center;padding:50px 20px;position:relative}
+#scrollTopBtn{position:fixed;bottom:40px;right:40px;padding:10px 15px;font-size:16px;cursor:pointer;background-color:#333;color:#fff;border:none;border-radius:5px;display:none;z-index:1000}
+</style>
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="#section1">섹션 1</a></li>
+    <li><a href="#section2">섹션 2</a></li>
+    <li><a href="#section3">섹션 3</a></li>
+    <li><a href="#section4">섹션 4</a></li>
+  </ul>
+</nav>
+
+<section id="section1">섹션 1</section>
+<section id="section2">섹션 2</section>
+<section id="section3">섹션 3</section>
+<section id="section4">섹션 4</section>
+
+<footer>&copy; 2025 My Website</footer>
+
+<button id="scrollTopBtn">▲ Top</button>
+
+<script>
+const links=document.querySelectorAll('nav ul li a');links.forEach(link=>{link.addEventListener('click',e=>{e.preventDefault();const targetId=link.getAttribute('href').substring(1);const targetSection=document.getElementById(targetId);targetSection.scrollIntoView({behavior:'smooth'})})});
+const scrollBtn=document.getElementById('scrollTopBtn');window.addEventListener('scroll',()=>{if(window.scrollY>200){scrollBtn.style.display='block'}else{scrollBtn.style.display='none'}});scrollBtn.addEventListener('click',()=>{window.scrollTo({top:0,behavior:'smooth'})});
+</script>
+
+</body>
+</html>
