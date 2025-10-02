@@ -18,8 +18,8 @@ section.main .info {width:100%;}
 
 
 body,html{margin:0; padding:0; scroll-behavior:smooth;}
-section{height:100vh; min-height:720px; display:flex; justify-content:center; align-items:center;}
-#section1{position:relative; overflow:hidden;}
+section{/*height:100vh; min-height:720px; display:flex; justify-content:center; align-items:center;*/}
+#main{position:relative; overflow:hidden;}
 .slider{display:flex; width:300%; height:100%; transition:transform 0.5s ease;}
 .slide{flex:0 0 100%; display:flex; justify-content:center; align-items:center;}
 
