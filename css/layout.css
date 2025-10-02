@@ -36,7 +36,7 @@ nav ul li {font-weight:700; flex:1; display:flex; align-items:center; justify-co
 
 @media all and (min-width:768px) {
   nav .inner {flex-wrap:nowrap; justify-content:space-between;}
-  nav .logo {height:60px; padding:0 20px; margin:0 auto 0 0;}
+  nav .logo {padding:0 20px; margin:0 auto 0 0;}
   nav ul {width:60%; padding:20px 0;}
   nav ul li {font-size:18px;}
 }
