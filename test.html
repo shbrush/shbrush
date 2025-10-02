@@ -95,9 +95,44 @@
 </footer>
 
 <script>
-const links=document.querySelectorAll('nav ul li a');links.forEach(link=>{link.addEventListener('click',e=>{e.preventDefault();const target=document.getElementById(link.getAttribute('href').substring(1));target.scrollIntoView({behavior:'smooth'})})});
-const scrollBtn=document.getElementById('scrollTopBtn');window.addEventListener('scroll',()=>{scrollBtn.style.display=window.scrollY>200?'block':'none'});scrollBtn.addEventListener('click',()=>{window.scrollTo({top:0,behavior:'smooth'})});
-const slider=document.querySelector('.slider');let slideIndex=0;const totalSlides=document.querySelectorAll('.slide').length;setInterval(()=>{slideIndex=(slideIndex+1)%totalSlides;slider.style.transform=`translateX(-${slideIndex*100}%)`},3000);
+const links = document.querySelectorAll('nav ul li a');
+
+links.forEach(link => {
+  link.addEventListener('click', e => {
+    e.preventDefault();
+    const target = document.getElementById(link.getAttribute('href').substring(1));
+    target.scrollIntoView({ behavior: 'smooth' });
+  });
+});
+
+const scrollBtn = document.getElementById('scrollTopBtn');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 200) {
+    scrollBtn.style.display = 'block';
+  } else {
+    scrollBtn.style.display = 'none';
+  }
+
+  if (window.scrollY > 100) {
+    document.body.classList.add('scroll');
+  } else {
+    document.body.classList.remove('scroll');
+  }
+});
+
+scrollBtn.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+const slider = document.querySelector('.slider');
+let slideIndex = 0;
+const totalSlides = document.querySelectorAll('.slide').length;
+
+setInterval(() => {
+  slideIndex = (slideIndex + 1) % totalSlides;
+  slider.style.transform = `translateX(-${slideIndex * 100}%)`;
+}, 3000);
 </script>
 
 </body>
