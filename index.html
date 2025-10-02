@@ -208,14 +208,22 @@ scrollBtn.addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
-const slider = document.querySelector('.slider');
-let slideIndex = 0;
-const totalSlides = document.querySelectorAll('.slide').length;
 
-setInterval(() => {
-  slideIndex = (slideIndex + 1) % totalSlides;
-  slider.style.transform = `translateX(-${slideIndex * 100}%)`;
-}, 6000);
+const slides = document.querySelectorAll('.slide');
+let slideIndex = 0;
+
+function showSlide(index) {
+  slides.forEach((slide,i)=>{
+    slide.classList.toggle('active', i===index);
+  });
+}
+
+setInterval(()=>{
+  slideIndex = (slideIndex+1) % slides.length;
+  showSlide(slideIndex);
+}, 3000);
+
+showSlide(slideIndex);
 </script>
 
 </body>
