@@ -68,11 +68,9 @@
         <li><em>이메일</em><p>shbrush@naver.com</p></li>
       </ul>
       <p class="copy">Copyright ⓒ송현브러쉬. All Rights Reserved.</p>
-      <button id="topbtn">TOP</button>
+      <button id="scrollTopBtn">TOP</button>
     </div>
 </footer>
-
-<button id="scrollTopBtn">▲ Top</button>
 
 <script>
 const links=document.querySelectorAll('nav ul li a');links.forEach(link=>{link.addEventListener('click',e=>{e.preventDefault();const target=document.getElementById(link.getAttribute('href').substring(1));target.scrollIntoView({behavior:'smooth'})})});
