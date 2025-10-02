@@ -214,7 +214,7 @@ const totalSlides = document.querySelectorAll('.slide').length;
 
 setInterval(() => {
   slideIndex = (slideIndex + 1) % totalSlides;
-  slider.style.transform = `translateX(-${slideIndex * 100}%)`;
+  slider.style.transform = 'translateX(-${slideIndex * 100}%)';
 }, 6000);
 </script>
 
