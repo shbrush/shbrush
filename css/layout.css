@@ -37,7 +37,7 @@ nav ul li {font-weight:700; display:flex; align-items:center; justify-content:ce
 @media all and (min-width:768px) {
   nav {height:100px; transition:0.3s;}
   body.scroll nav {height:70px;}
-  nav .inner {flex-wrap:nowrap; justify-content:space-between;}
+  nav .inner {flex-wrap:nowrap; justify-content:space-between; height:100%;}
   nav .logo {padding:0 20px; margin:0 auto 0 0;}
   body.scroll nav .logo {height:40px;}
   nav ul {width:60%; justify-content:flex-end;}
