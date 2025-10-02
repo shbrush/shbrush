@@ -34,7 +34,6 @@ nav ul li {font-weight:700; display:flex; align-items:center; justify-content:ce
 .slide.sd01 {background:#ededed;}
 .slide.sd02 {background:#ededaa;}
 .slide.sd03 {background:#edaaed;}
-.slide .txt {text-align:center;}
 
 /*위치안내*/
 section.loc .mapbox {width:100%; overflow:hidden;}
