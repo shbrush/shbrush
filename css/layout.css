@@ -78,7 +78,7 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 
 /*메인 - cs*/
 .maincs {background:#dc3018; color:#fff; padding:20px 0; height:100px;}
-.maincs .inner {display:flex; align-items:center; justify-content:space-between; gap:20px 0;}
+.maincs .inner {height:100%; display:flex; align-items:center; justify-content:space-between; gap:20px 0;}
 .maincs p {width:100%; font-weight:700; font-size:1.25em;}
 .maincs dl {width:100%; display:flex; flex-wrap:wrap; gap:0 2%;}
 .maincs dt {width:20%; font-weight:600;}
