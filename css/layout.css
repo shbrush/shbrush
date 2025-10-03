@@ -80,7 +80,7 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 .maincs {background:#dc3018; color:#fff;}
 .maincs .inner {display:flex; flex-wrap:wrap; align-items:center; gap:20px 0;}
 .maincs p {width:100%; font-weight:700; font-size:1.25em;}
-.maincs dl {width:100%; display:flex; flex-wrap:wrap; gap:10px 2%;}
+.maincs dl {width:100%; display:flex; flex-wrap:wrap; gap:0 2%;}
 .maincs dt {width:20%; font-weight:600;}
 .maincs dd {width:78%;}
 
