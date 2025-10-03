@@ -80,12 +80,12 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 .maincs p {font-weight:700; font-size:1.25em;}
 .maincs dl {display:grid; grid-template-columns:auto auto; align-items:center; gap:0 1em;}
 .maincs dt {font-weight:600;}
-.maincs dd:nth-last-of-type(2) {font-size:1.1em; font-weight:600;}
+.maincs dd:nth-last-of-type(2) {font-size:1.25em; font-weight:600;}
 
 @media all and (min-width:768px) {
   .maincs p {font-size:1.5em;}
   .maincs dl {grid-template-columns:auto auto auto auto;}
-  .maincs dd:nth-last-of-type(2) {font-size:1.25em;}
+  .maincs dd:nth-last-of-type(2) {font-size:1.5em;}
 }
 
 
