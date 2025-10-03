@@ -85,8 +85,14 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 .maincs dd {width:78%;}
 
 @media all and (min-width:768px) {
-  .maincs p {width:40%;}
+  .maincs p {width:40%; font-size:1.5em;}
   .maincs dl {width:60%;}
+}
+
+@media all and (min-width:1200px) {
+  .maincs dl {flex-wrap:nowrap;}
+  .maincs dt,
+  .maincs dd {width:auto;}
 }
 
 
