@@ -51,6 +51,7 @@ nav ul li {font-weight:700; display:flex; align-items:center; justify-content:ce
 .slide .sdwrap .img img {width:100%; max-width:480px; display:block; margin:0 auto;}
 
 @media all and (min-width:768px) {
+  #main {max-height:720px;}
   .slide .sdwrap {flex-wrap:nowrap;}
   .slide .sdwrap .txt {width:56%; text-align:left;}
   .slide .sdwrap .txt .t01 {font-size:1em;}
