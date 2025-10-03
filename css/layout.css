@@ -43,7 +43,7 @@ nav ul li {font-weight:700; display:flex; align-items:center; justify-content:ce
 
 @media all and (min-width:768px) {
   .slide .sdwrap {flex-wrap:nowrap;}
-  .slide .sdwrap .txt {width:60%;}
+  .slide .sdwrap .txt {width:60%; text-align:left;}
   .slide .sdwrap .img {width:40%;}
   .slide .sdwrap .img img {max-width:100%;}
 }
