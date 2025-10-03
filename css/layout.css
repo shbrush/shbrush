@@ -79,16 +79,13 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 .maincs {background:#dc3018; color:#fff; padding:20px 0; height:100px;}
 .maincs .inner {height:100%; display:flex; align-items:center; justify-content:space-between; gap:20px 0;}
 .maincs p {font-weight:700; font-size:1.25em;}
-.maincs dl {display:flex; flex-wrap:wrap; align-items:center; gap:0 2%;}
-.maincs dt {width:20%; font-weight:600;}
-.maincs dd {width:78%;}
+.maincs dl {display:grid; grid-template-columns:1fr 1fr; gap:0 1em;}
+.maincs dt {font-weight:600;}
 .maincs dd:nth-last-of-type(2) {font-size:1.1em; font-weight:600;}
 
 @media all and (min-width:768px) {
   .maincs p {font-size:1.5em;}
-  .maincs dl {flex-wrap:nowrap;}
-  .maincs dt,
-  .maincs dd {width:unset;}
+  .maincs dl {grid-template-columns:repeat(4, 1fr);}
   .maincs dd:nth-last-of-type(2) {font-size:1.25em;}
 }
 
