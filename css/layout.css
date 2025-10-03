@@ -78,13 +78,13 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 .maincs {background:#dc3018; color:#fff; padding:20px 0; height:100px;}
 .maincs .inner {height:100%; display:flex; align-items:center; justify-content:space-between; gap:20px 0;}
 .maincs p {font-weight:700; font-size:1.25em;}
-.maincs dl {display:grid; grid-template-columns:1fr 1fr; gap:0 1em;}
+.maincs dl {display:grid; grid-template-columns:auto auto; gap:0 1em;}
 .maincs dt {font-weight:600;}
 .maincs dd:nth-last-of-type(2) {font-size:1.1em; font-weight:600;}
 
 @media all and (min-width:768px) {
   .maincs p {font-size:1.5em;}
-  .maincs dl {grid-template-columns:repeat(4, 1fr);}
+  .maincs dl {grid-template-columns:auto auto auto auto;}
   .maincs dd:nth-last-of-type(2) {font-size:1.25em;}
 }
 
