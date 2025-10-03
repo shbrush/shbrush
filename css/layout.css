@@ -56,13 +56,13 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
   .slide .sdwrap .txt {width:56%; text-align:left;}
   .slide .sdwrap .txt .t01 {font-size:1em;}
   .slide .sdwrap .txt .t02 {font-size:2em;}
-  .slide .sdwrap .txt .t03 {font-size:1.1em;}
   .slide .sdwrap .img {width:40%;}
   .slide .sdwrap .img img {max-width:100%;}
 }
 
 @media all and (min-width:1200px) {
   .slide .sdwrap .txt .t02 {font-size:2.5em;}
+  .slide .sdwrap .txt .t03 {font-size:1.1em;}
 }
 
 
