@@ -82,13 +82,14 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 .maincs dl {width:100%; display:flex; flex-wrap:wrap; align-items:center; gap:0 2%;}
 .maincs dt {width:20%; font-weight:600;}
 .maincs dd {width:78%;}
+.maincs dd:nth-last-of-type(2) {font-size:1.1em;}
 
 @media all and (min-width:768px) {
   .maincs p {font-size:1.5em;}
   .maincs dl {flex-wrap:nowrap;}
   .maincs dt,
   .maincs dd {width:unset;}
-  .maincs dd:nth-last-of-type(2) {font-size:1.1em; font-weight:700;}
+  .maincs dd:nth-last-of-type(2) {font-size:1.25em;}
 }
 
 
