@@ -32,9 +32,24 @@ nav ul li {font-weight:700; display:flex; align-items:center; justify-content:ce
 .slider {position:relative; width:100%; height:100%;}
 .slide {position:absolute; top:0; left:0; width:100%; height:100%; opacity:0; transition:opacity 1s ease; display:flex; align-items:center; justify-content:center;}
 .slide.active {opacity:1; z-index:1;}
-.slide .txt {text-align:center;}
+
+.slide .sdwrap {display:flex; flex-wrap:wrap; align-items:center;}
+.slide .sdwrap .txt {width:100%; text-align:center;}
+.slide .sdwrap .img {width:100%;}
+.slide .sdwrap .img img {width:100%; max-width:480px; display:block; margin:0 auto;}
+
+@media all and (min-width:768px) {
+  .slide .sdwrap {flex-wrap:nowrap;}
+  .slide .sdwrap .txt {width:60%;}
+  .slide .sdwrap .img {width:40%;}
+  .slide .sdwrap .img img {max-width:100%;}
+}
+
+@media all and (min-width:1200px) {
+}
 
 
+/*메인 - 컨트롤*/
 .prev, .next {
   position:absolute; top:50%; transform:translateY(-50%);
   cursor:pointer; background:none; border:none; font-size:2rem; z-index:2;
