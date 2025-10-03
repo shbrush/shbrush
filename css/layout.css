@@ -33,7 +33,7 @@ nav ul li {font-weight:700; display:flex; align-items:center; justify-content:ce
 .slide {position:absolute; top:0; left:0; width:100%; height:100%; opacity:0; transition:opacity 1s ease; display:flex; align-items:center; justify-content:center;}
 .slide.active {opacity:1; z-index:1;}
 
-.slide .sdwrap {display:flex; flex-wrap:wrap; align-items:center;}
+.slide .sdwrap {display:flex; flex-wrap:wrap; align-items:center; width:94%; max-width:1360px;}
 .slide .sdwrap .txt {width:100%; text-align:center;}
 .slide .sdwrap .txt .t01 {color:#dc3018; font-weight:600; margin:0 0 10px;}
 .slide .sdwrap .txt .t02 {font-weight:700; font-size:1.5em; margin:0 0 10px;}
