@@ -17,7 +17,7 @@ nav .inner {display:flex; align-items:center; justify-content:center; flex-wrap:
 nav .logo {padding:10px 20px; overflow:hidden;}
 nav .logo img {width:auto; height:30px; transition:0.3s;}
 nav ul {width:100%; display:flex; align-items:center; justify-content:center; padding:10px 20px; gap:0 2em;}
-nav ul li {font-weight:700; display:flex; align-items:center; justify-content:center; text-align:center;}
+nav ul li {font-weight:600; display:flex; align-items:center; justify-content:center; text-align:center;}
 
 @media all and (min-width:768px) {
   nav {height:100px; transition:0.3s;}
@@ -44,7 +44,7 @@ nav ul li {font-weight:700; display:flex; align-items:center; justify-content:ce
 
 .slide .sdwrap {display:flex; flex-wrap:wrap; align-items:center; width:94%; max-width:1360px; gap:20px 4%;}
 .slide .sdwrap .txt {width:100%; text-align:center;}
-.slide .sdwrap .txt .t01 {color:#dc3018; font-weight:600; margin:0 0 10px; font-size:0.9em;}
+.slide .sdwrap .txt .t01 {color:#dc3018; font-weight:600; margin:0 0 10px; font-size:0.9em; line-height:1.2;}
 .slide .sdwrap .txt .t02 {font-weight:700; font-size:1.5em; margin:0 0 10px;}
 .slide .sdwrap .txt .t03 {}
 .slide .sdwrap .img {width:100%;}
