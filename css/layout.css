@@ -49,6 +49,13 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 .slide.active {opacity:1; z-index:1;}
 .slide img {width:100%; max-width:480px; display:block; margin:0 auto;}
 
+#main .cs {background:#dc3018; color:#fff; padding:20px 0; height:100px; border-radius:16px 16px 0 0;}
+#main .cs .inner {height:100%; display:flex; align-items:center; justify-content:space-between; gap:20px 0;}
+#main .cs p {font-weight:700; font-size:1.25em;}
+#main .cs dl {display:grid; grid-template-columns:auto auto; align-items:center; gap:0 1em;}
+#main .cs dt {font-weight:600;}
+#main .cs dd:nth-last-of-type(2) {font-size:1.25em; font-weight:600;}
+
 @media all and (min-width:768px) {
   #main .txt {width:50%; text-align:left;}
   #main .txt .t01 {font-size:1em;}
@@ -57,6 +64,10 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 
   .slide {width:45%;}
   .slide img {max-width:100%;}
+
+  #main .cs p {font-size:1.5em;}
+  #main .cs dl {grid-template-columns:auto auto auto auto;}
+  #main .cs dd:nth-last-of-type(2) {font-size:1.5em;}
 }
 
 @media all and (min-width:1200px) {
@@ -84,21 +95,6 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 .sectit {margin-bottom:20px;}
 .sectit p {color:#dc3018; font-weight:600; text-transform:uppercase;}
 .sectit h5 {font-weight:600; font-size:1.5em;}
-
-
-/*메인 - cs*/
-.maincs {background:#dc3018; color:#fff; padding:20px 0; height:100px; border-radius:16px 16px 0 0;}
-.maincs .inner {height:100%; display:flex; align-items:center; justify-content:space-between; gap:20px 0;}
-.maincs p {font-weight:700; font-size:1.25em;}
-.maincs dl {display:grid; grid-template-columns:auto auto; align-items:center; gap:0 1em;}
-.maincs dt {font-weight:600;}
-.maincs dd:nth-last-of-type(2) {font-size:1.25em; font-weight:600;}
-
-@media all and (min-width:768px) {
-  .maincs p {font-size:1.5em;}
-  .maincs dl {grid-template-columns:auto auto auto auto;}
-  .maincs dd:nth-last-of-type(2) {font-size:1.5em;}
-}
 
 
 /*인사말*/
