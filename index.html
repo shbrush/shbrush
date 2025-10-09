@@ -29,6 +29,11 @@
 
 <link rel="stylesheet" href="/css/style.css" />
 <link rel="stylesheet" href="/css/layout.css" />
+<script>
+  document.querySelectorAll('link[rel="stylesheet"]').forEach(l=>{
+    l.href+=l.href.includes('?')?'&v=':'?v='+Date.now();
+  });
+</script>
 
 </head>
 <body>
