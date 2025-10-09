@@ -66,13 +66,14 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 
 
 /*메인 - 컨트롤*/
-.slider .prev,
-.slider .next {position:absolute; top:50%; transform:translateY(-50%); cursor:pointer; background:none; border:none; font-size:2rem; z-index:2;}
-.slider .prev {left:10px;}
-.slider .next {right:10px;}
-.slider .pager {position:absolute; bottom:20px; left:50%; transform:translateX(-50%); display:flex; gap:10px; z-index:2;}
-.slider .dot {width:12px; height:12px; border-radius:50%; background:#ccc; cursor:pointer;}
-.slider .dot.active {background:#333;}
+.slider .control {display:flex;}
+.slider .control .prev,
+.slider .control .next {position:absolute; top:50%; transform:translateY(-50%); cursor:pointer; background:none; border:none; font-size:2rem; z-index:2;}
+.slider .control .prev {left:10px;}
+.slider .control .next {right:10px;}
+.slider .control .pager {position:absolute; bottom:20px; left:50%; transform:translateX(-50%); display:flex; gap:10px; z-index:2;}
+.slider .control .dot {width:12px; height:12px; border-radius:50%; background:#ccc; cursor:pointer;}
+.slider .control .dot.active {background:#333;}
 
 
 /*메인 - cs*/
