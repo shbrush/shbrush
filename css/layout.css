@@ -67,16 +67,16 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 
 
 /*메인 - 컨트롤*/
-.slider .control {display:flex; width:min(94%, 1360px); align-items:center; justify-content:center; gap:10px; position:absolute; left:max(3%, calc(50% - 680px)); bottom:20px; z-index:2;}
-.slider .control .prev,
-.slider .control .next {cursor:pointer; background:none; border:none; color:#fff; display:flex; align-items:center; justify-content:center; width:20px; height:20px;}
-.slider .control .pager {display:flex; gap:10px; width:calc(100% - 60px);}
-.slider .control .dot {flex:1; height:2px; background:#fff; opacity:0.2; cursor:pointer;}
-.slider .control .dot.active {opacity:1;}
+#main .control {display:flex; width:min(94%, 1360px); align-items:center; justify-content:center; gap:10px; position:absolute; left:max(3%, calc(50% - 680px)); bottom:20px; z-index:2;}
+#main .control .prev,
+#main .control .next {cursor:pointer; background:none; border:none; color:#fff; display:flex; align-items:center; justify-content:center; width:20px; height:20px;}
+#main .control .pager {display:flex; gap:10px; width:calc(100% - 60px);}
+#main .control .dot {flex:1; height:2px; background:#fff; opacity:0.2; cursor:pointer;}
+#main .control .dot.active {opacity:1;}
 
 @media all and (min-width:768px) {
-  .slider .control {justify-content:flex-start; bottom:80px;}
-  .slider .control .pager {width:200px;}
+  #main .control {justify-content:flex-start; bottom:80px;}
+  #main .control .pager {width:200px;}
 }
 
 
