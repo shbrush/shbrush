@@ -75,7 +75,7 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 .slider .control .dot.active {opacity:1;}
 
 @media all and (min-width:768px) {
-  .slider .control {justify-content:flex-start; bottom:40px;}
+  .slider .control {justify-content:flex-start; bottom:80px;}
 }
 
 
