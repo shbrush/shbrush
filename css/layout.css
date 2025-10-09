@@ -60,6 +60,7 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 }
 
 @media all and (min-width:1200px) {
+  .slide {padding:140px 0 40px;}
   .slide .sdwrap .txt .t02 {font-size:2.5em;}
   .slide .sdwrap .txt .t03 {font-size:1.1em;}
 }
