@@ -67,7 +67,7 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 
 
 /*메인 - 컨트롤*/
-.slider .control {display:flex; align-items:center; justify-content:center; gap:10px; position:absolute; bottom:20px; z-index:2;}
+.slider .control {display:flex; width:100%; align-items:center; justify-content:space-between; gap:10px; position:absolute; left:0; bottom:20px; z-index:2;}
 .slider .control .prev,
 .slider .control .next {cursor:pointer; background:none; border:none; display:flex; align-items:center; justify-content:center; width:30px; height:30px; border-radius:100%; background:#dc3018; color:#fff;}
 .slider .control .pager {display:flex; gap:10px;}
@@ -78,7 +78,7 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 /*메인 - 공통*/
 .sectit {margin-bottom:20px;}
 .sectit p {color:#dc3018; font-weight:600; text-transform:uppercase;}
-.sectit h5 {font-weight:600; font-size:1.25em;}
+.sectit h5 {font-weight:600; font-size:1.5em;}
 
 
 /*메인 - cs*/
