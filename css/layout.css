@@ -74,6 +74,12 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 .slider .control .dot.active {background:#333;}
 
 
+/*메인 - 공통*/
+.sectit {margin-bottom:40px;}
+.sectit p {color:#dc3018; font-weight:600; text-transform:uppercase;}
+.sectit h5 {font-weight:600; font-size:1.25em;}
+
+
 /*메인 - cs*/
 .maincs {background:#dc3018; color:#fff; padding:20px 0; height:100px;}
 .maincs .inner {height:100%; display:flex; align-items:center; justify-content:space-between; gap:20px 0;}
@@ -87,6 +93,10 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
   .maincs dl {grid-template-columns:auto auto auto auto;}
   .maincs dd:nth-last-of-type(2) {font-size:1.5em;}
 }
+
+
+/*인사말*/
+section.greet {padding:40px 0;}
 
 
 /*위치안내*/
