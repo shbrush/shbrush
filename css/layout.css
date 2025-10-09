@@ -66,7 +66,7 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 
 
 /*메인 - 컨트롤*/
-.slider .control {display:flex; width:100%; align-items:center; justify-content:space-between; gap:10px; position:absolute; left:0; bottom:20px; z-index:2;}
+.slider .control {display:flex; width:100%; align-items:center; justify-content:space-between; gap:10px; position:absolute; left:0; bottom:20px; z-index:2; width:94%; max-width:1360px;}
 .slider .control .prev,
 .slider .control .next {cursor:pointer; background:none; border:none; display:flex; align-items:center; justify-content:center; width:30px; height:30px; border-radius:100%; background:#dc3018; color:#fff;}
 .slider .control .pager {display:flex; gap:10px;}
