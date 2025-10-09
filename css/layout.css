@@ -69,8 +69,6 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 .slider .control {display:flex; align-items:center;}
 .slider .control .prev,
 .slider .control .next {cursor:pointer; background:none; border:none; z-index:2; display:flex; align-items:center; justify-content:center; width:30px; height:30px; border-radius:100%; background:#dc3018; color:#fff;}
-.slider .control .prev:after {}
-.slider .control .next:after {}
 .slider .control .pager {display:flex; gap:10px; z-index:2;}
 .slider .control .dot {width:10px; height:11px; border-radius:50%; background:#e0e0e0; cursor:pointer;}
 .slider .control .dot.active {background:#333;}
