@@ -68,10 +68,10 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 /*메인 - 컨트롤*/
 .slider .control {display:flex; width:min(94%, 1360px); align-items:center; justify-content:center; gap:10px; position:absolute; left:max(3%, calc(50% - 680px)); bottom:20px; z-index:2;}
 .slider .control .prev,
-.slider .control .next {cursor:pointer; background:none; border:none; color:#404040; display:flex; align-items:center; justify-content:center; width:20px; height:20px;}
+.slider .control .next {cursor:pointer; background:none; border:none; color:#fff; display:flex; align-items:center; justify-content:center; width:20px; height:20px;}
 .slider .control .pager {display:flex; gap:10px;}
-.slider .control .dot {width:30px; height:3px; background:#e0e0e0; cursor:pointer;}
-.slider .control .dot.active {background:#dc3018;}
+.slider .control .dot {width:30px; height:3px; background:#fff; opacity:0.2; cursor:pointer;}
+.slider .control .dot.active {opacity:1;}
 
 
 /*메인 - 공통*/
