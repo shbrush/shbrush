@@ -74,6 +74,10 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 .slider .control .dot {width:30px; height:3px; background:#fff; opacity:0.2; cursor:pointer;}
 .slider .control .dot.active {opacity:1;}
 
+@media all and (min-width:768px) {
+  .slider .control {justify-content:flex-start;}
+}
+
 
 /*메인 - 공통*/
 .sectit {margin-bottom:20px;}
