@@ -48,7 +48,7 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 .slide .sdwrap .txt .t02 {font-weight:700; font-size:1.5em; margin:0 0 10px;}
 .slide .sdwrap .txt .t03 {}
 .slide .sdwrap .img {width:100%;}
-.slide .sdwrap .img img {width:100%; max-width:480px; display:block; margin:0 auto;}
+.slide .sdwrap .img img {width:100%; max-width:480px; display:block; margin:0 auto; border-radius:16px;}
 
 @media all and (min-width:768px) {
   .slide .sdwrap {flex-wrap:nowrap;}
