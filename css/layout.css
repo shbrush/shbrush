@@ -43,7 +43,7 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 #main .txt {text-align:center; color:#fff;}
 #main .txt .t01 {color:#dc3018; font-weight:600; margin:0 0 10px; font-size:0.9em; line-height:1.2;}
 #main .txt .t02 {font-weight:700; font-size:1.5em; margin:0 0 10px;}
-#main .txt .t03 {}
+/*#main .txt .t03 {}*/
 
 #main .control {display:flex; width:min(94%, 1360px); align-items:center; justify-content:center; gap:10px; position:absolute; left:max(3%, calc(50% - 680px)); bottom:20px; z-index:2;}
 #main .control .prev,
