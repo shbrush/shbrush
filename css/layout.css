@@ -88,7 +88,7 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 
 
 /*메인 - cs*/
-.maincs {background:#dc3018; color:#fff; padding:20px 0; height:100px;}
+.maincs {background:#dc3018; color:#fff; padding:20px 0; height:100px; border-radius:16px 16px 0 0;}
 .maincs .inner {height:100%; display:flex; align-items:center; justify-content:space-between; gap:20px 0;}
 .maincs p {font-weight:700; font-size:1.25em;}
 .maincs dl {display:grid; grid-template-columns:auto auto; align-items:center; gap:0 1em;}
