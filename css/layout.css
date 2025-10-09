@@ -47,6 +47,7 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 .slide .sdwrap .txt .t01 {color:#dc3018; font-weight:600; margin:0 0 10px; font-size:0.9em; line-height:1.2;}
 .slide .sdwrap .txt .t02 {font-weight:700; font-size:1.5em; margin:0 0 10px;}
 .slide .sdwrap .txt .t03 {}
+.slide .sdwrap .img {width:100%;}
 .slide .sdwrap .img img {width:100%; max-width:480px; display:block; margin:0 auto;}
 
 @media all and (min-width:768px) {
