@@ -66,7 +66,7 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 
 
 /*메인 - 컨트롤*/
-.slider .control {display:flex; align-items:center;}
+.slider .control {display:flex; align-items:center; gap:10px;}
 .slider .control .prev,
 .slider .control .next {cursor:pointer; background:none; border:none; z-index:2; display:flex; align-items:center; justify-content:center; width:30px; height:30px; border-radius:100%; background:#dc3018; color:#fff;}
 .slider .control .pager {display:flex; gap:10px; z-index:2;}
