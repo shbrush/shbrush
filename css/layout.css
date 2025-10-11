@@ -64,6 +64,8 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 #main .cs dd:nth-last-of-type(2) {font-size:1.25em; font-weight:600;}
 
 @media all and (min-width:768px) {
+  #main .inner {display:flex; flex-wrap:wrap; align-items:center;}
+
   #main .txt {width:50%; text-align:left;}
   #main .txt .t01 {font-size:1em;}
   #main .txt .t02 {font-size:2em;}
@@ -72,16 +74,16 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
   #main .control {justify-content:flex-start;}
   #main .control .pager {width:200px;}
 
-  .slide {width:45%;}
+  .slide {width:50%;}
   .slide img {max-width:100%;}
 
+  #main .cs {width:100%;}
   #main .cs p {font-size:1.5em;}
   #main .cs dl {grid-template-columns:auto auto auto auto;}
   #main .cs dd:nth-last-of-type(2) {font-size:1.5em;}
 }
 
 @media all and (min-width:1200px) {
-  .slide {padding:120px 0 20px;}
   #main .txt .t02 {font-size:2.5em; margin:0 0 20px;}
   #main .txt .t03 {font-size:1.1em;}
 }
