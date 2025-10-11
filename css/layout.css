@@ -74,7 +74,7 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
   #main .control {justify-content:flex-start;}
   #main .control .pager {width:200px;}
 
-  .slide {width:50%;}
+  .slider {width:50%;}
   .slide img {max-width:100%;}
 
   #main .cs {width:100%;}
