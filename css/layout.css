@@ -101,7 +101,16 @@ nav ul li {font-weight:600; display:flex; align-items:center; justify-content:ce
 section.greet {padding:40px 0;}
 
 
+/*제품안내*/
+section.biz {padding:40px 0;}
+
+
+/*문의하기*/
+section.cs {padding:40px 0;}
+
+
 /*위치안내*/
+section.loc {padding:40px 0 0;}
 section.loc .mapbox {width:100%; overflow:hidden;}
 section.loc .mapbox .cont {display:none;}
 section.loc .mapbox .map_border {display:none;}
