@@ -106,7 +106,7 @@ section.biz {padding:40px 0;}
 section.biz .prdt ul {display:grid; grid-template-columns:1fr; gap:20px; margin:40px 0 0;}
 section.biz .prdt ul li {border-radius:16px; padding:20px; background:#fff; -webkit-box-shadow:0 0 20px 0 rgba(0,0,0,0.1); -moz-box-shadow:0 0 20px 0 rgba(0,0,0,0.1); box-shadow:0 0 20px 0 rgba(0,0,0,0.1);}
 section.biz .prdt ul li img {display:block;}
-section.biz .prdt ul li em {font-weight:600; background:#dc3018; color:#fff; display:inline-flex; padding:0 0.2em; margin:10px 0;}
+section.biz .prdt ul li em {font-weight:600; background:#dc3018; color:#fff; display:inline-flex; padding:0 0.4em; border-radius:4px; margin:10px 0;}
 section.biz .prdt ul li h5 {font-size:1.25em; font-weight:600; margin:0 0 20px;}
 section.biz .prdt ul li p {color:#666;}
 
