@@ -103,6 +103,12 @@ section.greet {padding:40px 0;}
 
 /*제품안내*/
 section.biz {padding:40px 0;}
+section.biz .prdt ul {display:grid; grid-template-columns:1fr; gap:20px;}
+section.biz .prdt ul li {border-radius:16px; padding:20px; background:#fff; -webkit-box-shadow:0 0 20px 0 rgba(0,0,0,0.1); -moz-box-shadow:0 0 20px 0 rgba(0,0,0,0.1); box-shadow:0 0 20px 0 rgba(0,0,0,0.1);}
+
+@media all and (min-width:768px) {
+  section.biz .prdt ul {grid-template-columns:1fr 1fr 1fr;}
+}
 
 
 /*문의하기*/
